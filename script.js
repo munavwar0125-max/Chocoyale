@@ -5,7 +5,7 @@ const tot=slides.length;
 setTimeout(()=>{
   i=(i+1)%tot;
   t.style.transform=`translateX(-${i*(100/tot)}%)`;
-},3000);
+},2000);
 
 
 
