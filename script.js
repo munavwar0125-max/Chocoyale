@@ -1,9 +1,9 @@
 
 const track=documemt.querySelector('.track');
-const slides=track.child;
+const slides=track.children;
 const tot=slides.length;
 let i=0;
-setTimeout(()=>{
+setInterval(()=>{
   i=(i+1)%tot;
   track.style.transform=`translateX(-${i*(100/tot)}%)`;
 },2000);
