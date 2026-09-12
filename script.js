@@ -1,5 +1,5 @@
 
-const track=documemt.querySelector('.track');
+const track=document.querySelector('.track');
 const slides=track.children;
 const tot=slides.length;
 let i=0;
