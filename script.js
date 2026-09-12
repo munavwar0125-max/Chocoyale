@@ -4,7 +4,7 @@ const slides=t.child;
 const tot=slides.length;
 setTimeout(()=>{
   i=(i+1)%tot;
-  t.style.transform=`translateX(-${i*(100/tot)}%)`;
+  track.style.transform=`translateX(-${i*(100/tot)}%)`;
 },2000);
 
 
