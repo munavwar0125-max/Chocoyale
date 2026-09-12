@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  position: space-evenly;
+  
   background:orange;
 }
   
@@ -28,7 +28,7 @@ img{
 button{
   height: 100px;
   width: 100px;
-  margin-left: 50px;
+margin-right: 20px;
   background:orange;
   
   font-size: 50px;
