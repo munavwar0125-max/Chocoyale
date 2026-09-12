@@ -1,7 +1,4 @@
 
-console.log("JS is running")
-  ;
-
 
 const track = document.getElementById('track');
 let index = 0;
