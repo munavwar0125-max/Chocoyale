@@ -32,6 +32,13 @@ margin-right: 20px;
   font-size: 50px;
 } 
 
+.slider{
+  width: 100%;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+}
 .track {
   height:100% ;
   width: 300%;
