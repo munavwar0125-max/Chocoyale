@@ -12,7 +12,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background: ;
   gap: 0px;
   margin: 0px;
   
@@ -21,7 +20,6 @@
   height: 100px;
   width: 90px;
   object-fit: cover;
-  background:;
   margin-top: 0px;
 }
 button{
@@ -55,9 +53,7 @@ margin-right: 20px;
   color: #964B01;
   font-size: 60px;
   font-weight: bold;
-  font-family:  serif;
-  
-  
+  font-family:  serif;    
   }
 #sym{
   margin:50px ;
