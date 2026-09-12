@@ -1,12 +1,13 @@
 .hdg{
-  max-height: 200px;
-  max-width: 100%;
+  height: 100px;
+  width: 100%;
   display: flex;
   flex-direction: row;
+  position: space-evenly;
+}
   
-  }
 .choco{
-  max-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,11 +25,12 @@ img{
   margin-top: 0px;
 }
 button{
-  max-height: 100px;
-  max-width: 100px;
+  height: 100px;
+  width: 100px;
   margin-left: 50px;
-  position: space-evenly;
-}
+  background:yellow;
+  color: blue;
+}  
 #name{
   color: #964B01;
   font-size: 40px;
@@ -37,3 +39,6 @@ button{
   
   
   }
+#sym{
+  margin:50px ;
+}
