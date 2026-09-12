@@ -32,7 +32,11 @@ margin-right: 20px;
   background:orange;
   
   font-size: 50px;
-}  
+} 
+#pos{
+  height:200px ;
+  width: 200px;
+}
 #name{
   color: #964B01;
   font-size: 60px;
