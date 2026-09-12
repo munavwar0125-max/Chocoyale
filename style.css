@@ -41,6 +41,11 @@ margin-right: 20px;
   flex-direction: row;
   transition: transform 0.5s ease;
 }
+#pos{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 #name{
   color: #964B01;
   font-size: 60px;
