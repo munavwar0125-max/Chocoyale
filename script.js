@@ -1,7 +1,8 @@
 
-const track=documemt.getElementsByClass('track');
+const track=documemt.querySelector('.track');
 const slides=track.child;
 const tot=slides.length;
+let i=0;
 setTimeout(()=>{
   i=(i+1)%tot;
   track.style.transform=`translateX(-${i*(100/tot)}%)`;
