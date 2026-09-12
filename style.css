@@ -33,9 +33,10 @@ margin-right: 20px;
   
   font-size: 50px;
 } 
-#pos{
+.track pos{
   height:200px ;
-  width: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 #name{
   color: #964B01;
