@@ -1,5 +1,5 @@
 
-const t=documemt.getElementsByClass("track");
+const t=documemt.getElementsByClass('track');
 const slides=t.child;
 const tot=slides.length;
 setTimeout(()=>{
