@@ -48,7 +48,7 @@ margin-right: 20px;
 }
 .track img{
   height: 100%;
-  width: 100%;
+  width: 100%3;
   object-fit: cover;
 }
 #name{
