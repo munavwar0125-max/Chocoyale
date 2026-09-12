@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   position: space-evenly;
+  background:orange;
 }
   
 .choco{
@@ -28,13 +29,13 @@ button{
   height: 100px;
   width: 100px;
   margin-left: 50px;
-  background:yellow;
-  color: blue;
+  background:orange;
+  
   font-size: 50px;
 }  
 #name{
   color: #964B01;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
   font-family:  serif;
   
