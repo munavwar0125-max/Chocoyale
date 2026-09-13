@@ -57,7 +57,8 @@ margin-right: 20px;
   font-family:  serif;    
   }
 .badge{
-  height: 20px;
-  width: 40px;
+  height: 120px;
+  width: 280px;
+  background:red;
   border-radius:20px
 }
