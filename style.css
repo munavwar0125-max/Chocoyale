@@ -43,7 +43,7 @@ margin-right: 20px;
   width: 300%;
   object-fit: cover;
   display: flex;
-  transition: transform 0.09s ease;
+  transition: transform 0.1s ease;
 }
 .track img{
   height: 100%;
