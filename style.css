@@ -38,8 +38,8 @@ margin-right: 20px;
   border-radius: 12px;
 }
 .track {
-  height:100% ;
-  width: 33.333%;
+  height:100%;
+  width: 300%;
   object-fit: cover;
   display: flex;
   transition: transform 0.5s ease;
