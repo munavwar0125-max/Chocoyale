@@ -6,7 +6,7 @@ let i=0;
 setInterval(()=>{
   i=(i+1)%tot;
   track.style.transform=`translateX(-${i*(100/tot)}%)`;
-},2000);
+},5000);
 
 
 
