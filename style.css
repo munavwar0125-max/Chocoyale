@@ -82,6 +82,10 @@ margin-right: 20px;
   background:white;
   color: black;
   cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
 }
 #next{
   height: 50px;
@@ -89,4 +93,8 @@ margin-right: 20px;
   background:white;
   color: black;
   cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
 }
