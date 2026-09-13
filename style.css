@@ -58,3 +58,8 @@ margin-right: 20px;
 #sym{
   margin:50px ;
 }
+#badge{
+  height: 20px;
+  width: 40px;
+  border-radius:20px
+}
