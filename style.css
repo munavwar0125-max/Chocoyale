@@ -56,10 +56,7 @@ margin-right: 20px;
   font-weight: bold;
   font-family:  serif;    
   }
-#sym{
-  margin:50px ;
-}
-#badge{
+.badge{
   height: 20px;
   width: 40px;
   border-radius:20px
