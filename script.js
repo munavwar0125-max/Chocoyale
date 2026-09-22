@@ -40,7 +40,7 @@ function go(step){
 }
 
 function render(){
-    t.style.transform=`translateX(-${i*1.11}%)`;
+    t.style.transform=`translateX(-${i*11.11}%)`;
 }
 
 
