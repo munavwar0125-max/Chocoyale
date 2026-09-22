@@ -109,7 +109,7 @@ margin-right: 20px;
 }
 .trac{
   height: 100%;
-  width: 400%;
+  width: 800%;
   display: flex;
   transform: translateX(0%);
   transition: transform 0.5s ease;
