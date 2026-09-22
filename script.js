@@ -9,20 +9,20 @@ setInterval(()=>{
 },5000);
 
 
-const s=document.querySelector("slyr");
-const t=document.querySelector("trac");
+const s=document.querySelector('.slyr');
+const t=document.querySelector('.trac');
 
-const nxtBtn=document.getElementById("next-btn");
-const prevBtn=document.getElementById("prev-btn");
+const nxtBtn=document.getElementById('next-btn');
+const prevBtn=document.getElementById('prev-btn');
 
 let i=0;
-let t=4;
+let tot=4;
 
-nxtBtn=addEventListener(click,function (){
+nxtBtn.addEventListener(click,function (){
   go(1)
 });
 
-prevBtn=addEventListener(click,function (){
+prevBtn.addEventListener(click,function (){
   go(-1)
 });
 
@@ -33,7 +33,7 @@ function go(step){
 }
 
 function render(){
-    t.style.transform=`translateX(-25%)`;
+    t.style.transform=`translateX(-${i*25}%)`;
 }
 
 
