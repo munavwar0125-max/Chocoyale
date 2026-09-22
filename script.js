@@ -40,17 +40,10 @@ function go(step){
 }
 
 function render(){
-    t.style.transform=`translateX(-${i*1.11..1.1}%)`;
+    t.style.transform=`translateX(-${i*1.11}%)`;
 }
 
 
 
 
 
-/*const track = document.getElementById('track');
-let index = 0;
-const ts=3;
-setInterval(() => {
-  index = (index + 1) % ts;
-  track.style.transform = `translateX(-${index * 100/ts}%)`;
-}, 5000); *///change every 3 seconds//
