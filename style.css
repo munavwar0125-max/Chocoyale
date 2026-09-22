@@ -118,7 +118,7 @@ margin-right: 20px;
 
 .trac-img{
   height: 100%;
-  width: 150%;          /* 100% / 4 */
+  width: 50%;          /* 100% / 4 */
   object-fit: contain;
   overflow: hidden;
   flex-shrink: 0;
