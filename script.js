@@ -16,7 +16,7 @@ const nxtBtn=document.getElementById('next-btn');
 const prevBtn=document.getElementById('prev-btn');
 
 let i=0;
-let total=4;
+let total=8;
 
 nxtBtn.addEventListener("click",function (){
   go(1)
