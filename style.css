@@ -109,14 +109,14 @@ margin-right: 20px;
 }
 .trac{
   height: 100%;
-  width: 800%;
+  width: 900%;
   display: flex;
   transition: transform 0.5s ease;
 }
 
 .trac-img{
   height: 100%;
-  width: 12.5%;            
+  width: 11.1%;            
   object-fit: contain;
 flex-shrink:0;
 }
