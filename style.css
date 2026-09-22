@@ -111,7 +111,10 @@ margin-right: 20px;
   height: 100%;
   width: 400%;
   display: flex;
-transition: transform 0.5s ease;
+
+  transform: translateX(0%);
+  transition: transform 0.5s ease;
+}
 }
 #trac-img{
   height: 100%;
