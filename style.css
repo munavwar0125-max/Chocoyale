@@ -101,11 +101,15 @@ margin-right: 20px;
 }
 
 .slyr{
-  height: 500px;
+  
   width: 100%;
+  aspect-ratio:4/3;
+  overflow: hidden;
+  position: relative;
 }
 .trac{
   height: 100%;
   width: 400%;
-  aspect-ratio:4/3;
+  display: flex;
+transition: transform 0.5s ease;
 }
