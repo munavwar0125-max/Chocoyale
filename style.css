@@ -116,6 +116,7 @@ margin-right: 20px;
 }
 
 .trac-img{
+  width: 100%;
   transform: scale(1.4);          /* 100% / 4 */
   object-fit: contain;
   background:yellow;
