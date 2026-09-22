@@ -28,6 +28,13 @@ prevBtn.addEventListener(click,function (){
 
 function go(step){
   let newIdx=i+step;
+  if (newIdx < 0) {
+    newIdx = 0;
+  }
+  if (newIdx > total - 1) {
+    newIdx = total - 1;
+  }
+
   i=newIdx;
   render();
 }
