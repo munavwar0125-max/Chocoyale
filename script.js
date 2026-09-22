@@ -16,7 +16,7 @@ const nxtBtn=document.getElementById('next-btn');
 const prevBtn=document.getElementById('prev-btn');
 
 let i=0;
-let total=8;
+let total=9;
 
 nxtBtn.addEventListener("click",function (){
   go(1)
@@ -40,7 +40,7 @@ function go(step){
 }
 
 function render(){
-    t.style.transform=`translateX(-${i*25}%)`;
+    t.style.transform=`translateX(-${i*1.11..1.1}%)`;
 }
 
 
