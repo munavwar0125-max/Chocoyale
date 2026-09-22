@@ -9,12 +9,32 @@ setInterval(()=>{
 },5000);
 
 
+const s=document.querySelector("slyr");
+const t=document.querySelector("trac");
 
+const nxtBtn=document.getElementById("next-btn");
+const prevBtn=document.getElementById("prev-btn");
 
+let i=0;
+let t=4;
 
+nxtBtn=addEventListener(click,function (){
+  go(1)
+});
 
+prevBtn=addEventListener(click,function (){
+  go(-1)
+});
 
+function go(step){
+  let newIdx=i+step;
+  i=newIdx;
+  render();
+}
 
+function render(){
+    t.style.transform=`translateX(-25%)`;
+}
 
 
 
