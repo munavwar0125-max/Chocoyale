@@ -99,3 +99,13 @@ margin-right: 20px;
   transform: translateY(-50%);
 
 }
+
+.slyr{
+  height: 500px;
+  width: 100%;
+}
+.trac{
+  height: 100%;
+  width: 400%;
+  aspect-ratio:4/3;
+}
