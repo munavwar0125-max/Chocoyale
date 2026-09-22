@@ -2,10 +2,10 @@
 const track=document.querySelector('.track');
 const slides=track.children;
 const tot=slides.length;
-let in=0;
+let idx=0;
 setInterval(()=>{
-  in=(in+1)%tot;
-  track.style.transform=`translateX(-${in*(100/tot)}%)`;
+  idx=(idx+1)%tot;
+  track.style.transform=`translateX(-${idx*(100/tot)}%)`;
 },5000);
 
 
