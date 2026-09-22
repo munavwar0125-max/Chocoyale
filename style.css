@@ -121,7 +121,7 @@ margin-right: 20px;
   object-fit: contain;
   overflow: hidden;
   flex-shrink: 0;
-  gap: 2px;
+  margin: 2px;
   background:yellow;
 }
   
