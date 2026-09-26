@@ -42,6 +42,12 @@ margin-right: 20px;
   border-radius: 12px;
   
 }
+
+.pos{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
 .track {
   height:100%;
   width: 300%;
