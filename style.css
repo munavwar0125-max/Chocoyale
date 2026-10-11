@@ -37,7 +37,7 @@ margin-right: 20px;
 
 .slider{
   object-fit: contain;
-  height: 1280px;
+  height: 100%;
   width: 100%;
   margin-top: 0px;
   overflow: hidden;
