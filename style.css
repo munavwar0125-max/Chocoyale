@@ -12,16 +12,7 @@ height: 100%;
   background:orange;
 }
 
-#void{
-  height: 500px;
-  width: 100%;
-  background:orange;
-  font-size: 90px;
-  font-weight: 30px;
-  text-align: center;
-  color:white;
-  margin-top: 50px;
-}
+
 
 .choco{
   width: 100%;
@@ -81,7 +72,7 @@ margin-right: 20px;
 }
 #cap{
   background:#964B01;
-  height: 50px;
+  height: 100px;
   width: 100%;
   font-size: 30px;
   text-align: center;
