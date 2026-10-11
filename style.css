@@ -68,7 +68,7 @@ margin-right: 20px;
   transition: transform 0.7s ease;
 }
 .track img{
-   flex: 0 0 33.3333%;
+   
   height: 100%;
   width: 33.33%;
   object-fit: contain;
