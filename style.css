@@ -1,6 +1,4 @@
 *{
-
-  margin:0;
   
 }
 
@@ -39,8 +37,9 @@ margin-right: 20px;
 
 .slider{
   object-fit: contain;
-  
+  height: 100%;
   width: 100%;
+  margin: 0;
   overflow: hidden;
   position: relative;
   border-radius: 12px;
