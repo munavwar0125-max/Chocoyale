@@ -95,7 +95,7 @@ margin-right: 20px;
 }
 
 .badge{
-  
+  display: flex;
   margin: 0 auto;
   text-align: center;
   height: 250px;
