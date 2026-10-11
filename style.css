@@ -62,14 +62,14 @@ margin-right: 20px;
 .track {
   height:100%;
   width: 300%;
-  object-fit: cover;
+  object-fit: contain;
   display: flex;
   transition: transform 0.7s ease;
 }
 .track img{
   height: 100%;
   width: 33.33%;
-  object-fit: cover;
+  object-fit: contain;
 }
 #name{
   color: #964B01;
