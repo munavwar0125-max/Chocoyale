@@ -131,6 +131,7 @@ margin-right: 20px;
 }
 .trac{
   width: 900%;
+  object-fit: contain;
   display: flex;
   transition: transform 0.5s ease;
 }
