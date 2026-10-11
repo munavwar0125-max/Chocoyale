@@ -39,7 +39,7 @@ margin-right: 20px;
 
 .slider{
   object-fit: contain;
-  height: 50em;
+  height: 350px;
   width: 100%;
   overflow: hidden;
   position: relative;
