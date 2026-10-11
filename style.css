@@ -65,6 +65,7 @@ margin-right: 20px;
   height:100%;
   width: 300%;
   display: flex;
+  aspect-ratio:3/4;
   transition: transform 0.7s ease;
 }
 .track img{
