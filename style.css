@@ -158,9 +158,14 @@ width: 100%;
   display: flex;
   
 }
+#img{
+  height: 100px;
+  width: 100px;
+}
 #item{
 height: 600px;
 width: 200px;
   border-block-color: blue;
   background:yellow;
+  
 }
