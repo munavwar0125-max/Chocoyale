@@ -161,5 +161,6 @@ width: 100%;
 #item{
 height: 600px;
 width: 200px;
-  
+  border-block-color: blue;
+  background:yellow;
 }
