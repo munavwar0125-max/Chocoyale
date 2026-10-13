@@ -156,7 +156,7 @@ height:100%;
 width: 100%;
   padding: 25px;
   display: flex;
-  justify-content: center;;
+  justify-content: center;;;
   align-items:center;;
 }
 #img{
@@ -164,8 +164,8 @@ width: 100%;
   width: 50%;
 }
 .img{
-height: 600px;
-width: 200px;
+height: 100%;
+width: 50%;
   background:yellow;
   
 }
