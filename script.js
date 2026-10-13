@@ -43,6 +43,39 @@ function render(){
     t.style.transform=`translateX(-${i*11.11}%)`;
 }
 
+const s=document.querySelector('.ctr');
+const t=document.querySelector('.pack');
+
+const nxtBtn=document.getElementById('nBtn');
+const prevBtn=document.getElementById('pBtn');
+
+let i=0;
+let total=6;
+
+nxtBtn.addEventListener("click",function (){
+  go(1)
+});
+
+prevBtn.addEventListener("click",function (){
+  go(-1)
+});
+
+function go(step){
+  let newIdx=i+step;
+  if (newIdx < 0) {
+    newIdx = 0;
+  }
+  if (newIdx > total - 1) {
+    newIdx = total - 1;
+  }
+
+  i=newIdx;
+  render();
+}
+
+function render(){
+    t.style.transform=`translateX(-${i*16.6666}%)`;
+}
 
 
 
