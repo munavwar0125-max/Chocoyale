@@ -192,7 +192,7 @@ width: 50%;;
   object-fit: contain;
 flex-shrink:0;
 }
-pBtn{
+#pBtn{
 height: 100px;
   width: 100px;
   background:white;
