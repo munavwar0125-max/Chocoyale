@@ -46,17 +46,18 @@ function render(){
 const s=document.querySelector('.ctr');
 const t=document.querySelector('.pack');
 
-const nxtBtn=document.getElementById('nBtn');
-const prevBtn=document.getElementById('pBtn');
+const nBtn=document.getElementById('nBtn');
+const p
+  Btn=document.getElementById('pBtn');
 
 let i=0;
 let total=6;
 
-nxtBtn.addEventListener("click",function (){
+nBtn.addEventListener("click",function (){
   go(1)
 });
 
-prevBtn.addEventListener("click",function (){
+pBtn.addEventListener("click",function (){
   go(-1)
 });
 
