@@ -176,3 +176,21 @@ width: 50%;;
   background:yellow;
   padding: 25px;
 }
+
+.ctr{
+  width: 100%;
+  overflow:hidden;
+  position: relative;
+}
+.pack{
+  width: 600%;
+  object-fit: contain;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.pack-image{
+  height: 100%;
+  width: 16.6%;            
+  object-fit: contain;
+flex-shrink:0;
+}
